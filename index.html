@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container" style="z-index: 99;position: relative;">
+            <nav>
+                <img src="images/nik logo.png" class="logo">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Nikhilesh Patil</span><br> From India </h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!--ABOUT-->
+    <div class="container" id="about">
+        <div class="row">
+            <img src="images/about me pic.jpg" class="about-img" />
+
+            <div class="about-col-2">
+
+                <h2>About Me</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto optio tenetur, provident rerum, velit
+                    omnis quisquam odit expedita qui sapiente harum consequuntur quia labore, atque molestias pariatur
+                    nobis voluptates eius.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!---education-->
+    <div class="container edu-cont" id="education">
+        <img src="./images/homework.png" height="72" width="72" />
+        <h2>Education</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>12th</th>
+                    <th>10th</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marks</td>
+                    <td>100.3</td>
+                    <td>35.1%</td>
+                </tr>
+                <tr>
+                    <td>Marks</td>
+                    <td>100.3</td>
+                    <td>35.1%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- contact -->
+    <div class="container" id="contact">
+        <div>
+            <h2>Contact me</h2>
+            <div class="contact-details">
+                <div>
+                    <img src="./images/gmail.png" height="40" width="40"/>
+                <a href="mailto:pnikhilesh50@gmail.com">Email: pnikhilesh50@gmail.com</a>
+                </div>
+                <div>
+                    <img src="./images/telephone.png" height="40" width="40">
+                    <a href="tel:91">Phone: +91 </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <form class="form">
+                <h3>Submit Your details</h3>
+                
+                <input type="text" id="name" placeholder="Name" required/>
+                <input type="email" id="email" placeholder="Email" required/>
+                <textarea id="message" placeholder="Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+
+            
+        </div>
+    </div>
+
+    <footer>
+        2023 Devloper by Nik
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
